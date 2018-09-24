@@ -1,0 +1,109 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	height: 665px;
+	background-image: linear-gradient(-45deg, #8397C7, #5EAFFD);
+	background-image: -webkit-linear-gradient(-45deg, #8397C7, #5EAFFD);
+	background-image: -o-linear-gradient(-45deg, #8397C7, #5EAFFD);
+}
+
+#shubmockup {
+	opacity: 0;
+	top: 20px;
+}
+
+.btn_custom {
+	background-color: rgba(0,0,0, 0);
+	border: 1px solid white;
+	color: white;
+}
+
+.small_col {
+	margin-top: 32px;
+	padding: 16px;
+}
+
+
+.large_col {
+	margin-top: 16px;
+	padding: 32px;
+}
+
+.icon_custom {
+	opacity: 0.8;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40px;
+	height: 40px;
+}
+
+.line_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 6px;
+	background-color: 	rgba(0, 0, 0, 0.5);
+	border-radius: 	25%;
+}
+
+.sm_img {
+	width: 200px;
+	height: 160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lg_img {
+	width: 240px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bg_2 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url('../assets/img/ip2.png') fixed center no-repeat;
+  background-size: cover; 
+}
+
+.bg_2:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  }
+
+.ip_pic {
+	width: 300px;
+	height: 500px;
+}
+
+.custom_link {
+	width: 60%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.custom_link:hover {
+	text-decoration: none;
+}
+
+.custom_link > img {
+	display: inline;
+	width:  30%;
+}
+
+footer {
+	margin-top: 50px;
+	
+	background: linear-gradient(45deg, rgba(94,175,253), rgba(131,151,199));
+	background: -webkit-linear-gradient(45deg, rgba(94,175,253), rgba(131,151,199));
+	background: -o-linear-gradient(45deg, rgba(94,175,253), rgba(131,151,199));
+}
